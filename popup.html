@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Syllabus Finder</title>
+    <style>
+        /* CSS inline defined in head/style */
+        body {
+            width: 300px;
+            height: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Open syllabus in a new tab</h1>
+    <label for="course">Choose a course:</label>
+    <select name="course" id="course">
+        <optgroup label="Core courses">
+            <option value="CIT 591">591</option>
+            <option value="CIT 592">592</option>
+        </optgroup>
+        <optgroup label="Elective courses">
+            <option value="CIT 515">515</option>
+            <option value="CIT 581">581</option>
+        </optgroup>
+    </select>
+    <button id="checkPage">Go!</button>
+    <script src="finder.js"></script>
+</body>
+
+</html>
