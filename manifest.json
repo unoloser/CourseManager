@@ -4,7 +4,7 @@
     "description": "This extension will open the syllabus of any MCIT courses",
     "version": "1.0",
     "browser_action": {
-        "default_icon": "mcit.png",
+        "default_icon": "images/mcit.png",
         "default_popup": "popup.html"
     },
     "permissions": [
