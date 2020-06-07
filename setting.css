@@ -1,0 +1,46 @@
+body {
+    width: 300px;
+    margin: 10px;
+    height: 300px; 
+
+}
+
+/* table {
+    border-collapse: collapse;
+}
+  
+  table, th, td {
+    border: 1px solid black;
+}
+
+#infoTables{
+    margin-left:auto; 
+    margin-right:auto; 
+    text-align: center;
+    width: 200px;
+
+    color: gray;
+} */
+
+#inputField {
+    text-align: center;
+}
+
+.infoInput{
+    text-align: center;
+    color: gray;
+}
+
+.header {
+    text-align: center;
+    color: red;
+    
+}
+
+#lists{
+    list-style: none;
+}
+
+#save{
+    float: right;
+}

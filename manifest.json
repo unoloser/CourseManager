@@ -5,9 +5,10 @@
     "version": "1.0",
     "browser_action": {
         "default_icon": "images/mcit.png",
-        "default_popup": "popup.html"
+        "default_popup": "popup2.html"
     },
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "storage"
     ]
 }

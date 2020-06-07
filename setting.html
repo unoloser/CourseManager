@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="setting.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Info Settings</title>
+
+</head>
+
+<body>
+    <p class="header">Profile:</p>
+    <!-- <table border="1" id="infoTables">
+        <tr>
+            <td id="updatedName" placeholder="Name"></td>
+            
+        </tr>
+        <tr>
+            <td id="updatedID" placeholder="Student ID"></td>
+        </tr>
+    </table> -->
+    <div id="inputField">
+        <input class="infoInput" id="updatedName" type="text" name="inputBox" placeholder="Name">
+        <input class="infoInput" id="updatedID" type="text" name="inputBox" placeholder="Student ID">
+    </div>
+
+    <p class="header">Course Registered:</p>
+    <div id="checkboxes">
+        <ul id="lists">
+            <li><input type="checkbox" id="CIT591">CIT 591</li>
+            <li><input type="checkbox" id="CIT592">CIT 592</li>
+            <li><input type="checkbox" id="CIT593">CIT 593</li>
+            <li><input type="checkbox" id="CIT594">CIT 594</li>
+            <li><input type="checkbox" id="CIT595">CIT 595</li>
+            <li><input type="checkbox" id="CIT596">CIT 596</li>
+        </ul>
+    </div>
+    <p id="stdout">Waiting... </p>
+    <button id="save">Save</button>
+
+    <script type="text/javascript" src="saveInfo.js"></script>
+</body>
+
+</html>
