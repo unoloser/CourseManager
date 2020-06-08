@@ -5,11 +5,6 @@ var courseraList = document.getElementById('courseraList')
 
 
 window.onload = function () {
-    var proctorULink = "https://www.proctoru.com/"
-    var proUBtn = document.getElementById("goToExam")
-    proUBtn.addEventListener('click', function () {
-        window.open(proctorULink);
-    })
 
     var element = document.getElementById("piazzaCIT591");
 
