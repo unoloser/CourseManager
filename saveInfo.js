@@ -37,7 +37,7 @@ if (saveBtn) {
             }
         });
 
-        // window.close();
+        window.close();
     });
 }
 
